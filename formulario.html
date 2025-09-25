@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+     <body>
+        <h1>Formulário de Satisfação</h1>
+        <form action="pagina_destino.html" method="POST">
+        <p>
+            <label for="Nome">Nome:</label>
+            <input type="text" placeholder="Seu Nome"  id-="Nome"/>
+        </p>
+
+        <p>
+
+            <label for="E-mail">E-mail:</label>
+            <input type="text" placeholder="Seu e-mail"  id="E-mail" />
+        </p>
+        
+        <p>
+            <label for="Telefone">Telefone:</label>
+            <input type="text" placeholder="Telefone" id="Telefone"  />
+        </p>
+
+            
+        <p>
+            Atendimento:
+            <input type="radio"  id="Ruim" name="atendimento" />
+            <label for="Ruim">Ruim</label>
+            <input type="radio" id="Muito Ruim" name="atendimento" />
+            <label for="Muito Ruim">Muito Ruim</label>
+            <input type="radio"  id="Bom" name="atendimento"  />
+            <label for="Bom">Bom</label>
+            <input type="radio"  id="Muito Bom" name="atendimento" />
+            <label for="Muito Bom">Muito Bom</label>
+        </p>
+
+        <p>
+            Qualidade do Produto:
+            <input type="radio" id="Ruim" name="qualidade"  />
+            <label for="Ruim">Ruim</label>
+            <input type="radio" id="Bom" name="qualidade"  />
+            <label for="Bom">Bom</label>
+            <input type="radio" id="Excelente" name="qualidade"  />
+            <label for="Excelente">Excelente</label>
+        </p>
+
+        <p>
+            Escala de Frequência:
+            <select>
+                <option>Sempre</option>
+                <option>Frequentemente</option>
+                <option>Ás vezes</option>
+                <option>Raramente</option>
+                <option>Nunca</option>
+
+            </select>
+        </p>
+
+        <p>
+            <input type="checkbox" id="termos"  />
+            <label>Autorizo compartilhar minha resposta com terceiros.</label>
+        </p>
+
+        <input type="submit"  value="Log in"  />
+        </form>
+
+    </body>
+</html>
